@@ -594,7 +594,7 @@ footer {
   font-weight: 400;
   line-height: normal;
   cursor: pointer;
-  background-image: url("./img/вторая.png");
+  background-image: url("./img1/вторая.png");
 }
 .footer button {
   display: flex;

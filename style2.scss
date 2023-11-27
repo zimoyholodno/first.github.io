@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body{
+    background: rgba(51, 51, 51, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside{
+    padding-top: 30px;
+    font-family: 'Circe Bold';
+    display: flex;
+    flex-direction: column;
+
+    &__main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    a{
+        color: rgb(0, 0, 0);
+        text-decoration:none;
+        padding-top: 5px;
+    }
+
+    cursor: pointer;  
+}
