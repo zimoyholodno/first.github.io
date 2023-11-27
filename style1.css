@@ -1,0 +1,627 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color: rgba(120, 120, 120, 0.662745098);
+}
+
+.container {
+  background-color: #FFF;
+  width: 1440px;
+}
+
+.header {
+  background-image: url("./img/первая.png");
+  height: 893px;
+  width: 100%;
+}
+.header__top {
+  display: flex;
+  flex-direction: row;
+  padding-left: 41.03px;
+}
+.header__circle {
+  margin-top: 31px;
+  width: 9.73px;
+  height: 9.73px;
+  flex-shrink: 0;
+  border-radius: 3000px;
+  background: rgb(210, 160, 112);
+  opacity: 0.0863901973;
+}
+.header__brand {
+  color: #FFF;
+  font-family: "Roslindale";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  padding-top: 27.76px;
+  padding-left: 3.5px;
+  width: 87px;
+  height: 15px;
+}
+.header__list {
+  display: flex;
+  width: 254px;
+  align-items: flex-start;
+  gap: 5px;
+  margin-top: 29px;
+  margin-left: 465px;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__link {
+  list-style: none;
+  width: 254px;
+}
+.header__link a {
+  font-family: "Apercu Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  width: 70px;
+  height: 14px;
+  padding-right: 5px;
+  color: #F6F6F6;
+  text-decoration: none;
+  cursor: pointer;
+  /*/ a:link{
+       color: #FFF;
+   }
+
+   a:visited{
+       color: #727272;
+   }
+
+   a:hover{ 
+    color: rgb(255, 178, 44);
+   }*/
+}
+.header__button {
+  color: #F6F6F6;
+  text-align: center;
+  font-family: "Apercu Pro";
+  font-size: 10.21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.header__bottom {
+  display: flex;
+  margin-top: 63px;
+  margin-left: 19.03px;
+  margin-right: 1 17.97px;
+  width: 1403px;
+  height: 240px;
+  max-width: 1440px;
+  flex-direction: column;
+}
+.header__title {
+  display: flex;
+  color: #F6F6F6;
+  text-align: center;
+  font-family: "Roslindale";
+  font-size: 115px;
+  font-style: normal;
+  font-weight: 300;
+  /* white-space: nowrap;*/
+  max-height: 168px;
+  max-width: 1403px;
+  flex-shrink: 0;
+}
+.header__text {
+  color: #F6F6F6;
+  font-family: "Apercu Pro";
+  font-size: 15.005px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 333px;
+  height: 79px;
+  margin-left: 21.95px;
+}
+.header button {
+  width: 94.5px;
+  height: 22.5px;
+  background-image: url("./img/вторая.png");
+  margin-right: 42.5px;
+  margin-top: 27.77px;
+  margin-left: 416px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.history__all {
+  display: flex;
+  flex-direction: row;
+}
+.history__number {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 11.246px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 117px;
+  margin-left: 37.48px;
+  margin-right: 449.3px;
+}
+.history__title {
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 26.5px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 436.51px;
+  height: 45px;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 112.28px;
+  margin-right: 24.48px;
+}
+.history__text {
+  width: 438px;
+  margin-top: 95px;
+  margin-bottom: 8.78px;
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 15.005px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cook__all {
+  display: flex;
+  flex-direction: row;
+}
+.cook__first {
+  margin-top: 12px;
+  margin-left: 37.48px;
+}
+.cook__second {
+  margin-left: 15px;
+  margin-top: 17px;
+}
+.cook__third {
+  margin-left: 15.02px;
+  margin-top: 358.25px;
+}
+
+.squid {
+  background-image: url("./img/colmar.png");
+  width: 1440px;
+  height: 810px;
+}
+
+.menutitle {
+  display: flex;
+  flex-direction: row;
+}
+.menutitle__number {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 11.246px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 120.74px;
+  margin-left: 37.48px;
+}
+.menutitle__text {
+  color: #151515;
+  text-align: right;
+  font-family: "Roslindale";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 112.24px;
+  margin-left: 37.03px;
+  margin-left: 44.95px;
+}
+
+.delicacies__all {
+  display: flex;
+  flex-direction: column;
+  margin-left: 37.48px;
+  margin-top: 26.15px;
+}
+.delicacies__column {
+  display: flex;
+  flex-direction: row;
+}
+.delicacies__img {
+  width: 467px;
+  height: 467px;
+  padding: 8.48px 5px 5px 5px;
+}
+.delicacies__bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 362.22px;
+  width: 444px;
+  margin-right: 20.03px;
+}
+.delicacies__number {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 11.246px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8.48px;
+}
+.delicacies__title {
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 20.25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.delicacies__text {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.seafood__all {
+  display: flex;
+  flex-direction: column;
+  margin-left: 37.48px;
+  margin-top: 26.15px;
+}
+.seafood__title {
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 109px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 153px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
+.seafood__row {
+  display: flex;
+  flex-direction: row;
+}
+.seafood__img {
+  width: 467px;
+  height: 467px;
+  padding: 8.48px 5px 5px 3px;
+}
+.seafood__text {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 15.005px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 429px;
+  flex-shrink: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+.seafood__menu {
+  padding-top: 335px;
+  width: 427px;
+}
+.seafood__menutitle {
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 20.25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.seafood__menutext {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 427px;
+}
+
+.third__all {
+  display: flex;
+  flex-direction: column;
+  margin-left: 37.48px;
+  margin-top: 26.15px;
+}
+.third__row {
+  display: flex;
+  flex-direction: row;
+}
+.third__number {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 11.246px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.third__title {
+  display: flex;
+  flex-direction: column;
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: right;
+  padding-left: 27px;
+  padding-bottom: 26px;
+}
+.third__title span {
+  width: 1306.7px;
+}
+.third__one {
+  width: 444.73px;
+  height: 444.73px;
+  flex-shrink: 0;
+  padding-right: 15px;
+}
+.third__two {
+  width: 621px;
+  height: 616.5px;
+  flex-shrink: 0;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.third__three {
+  width: 268.5px;
+  height: 268.5px;
+  flex-shrink: 0;
+  padding-top: 345px;
+}
+.third__four {
+  width: 667.48px;
+  height: 667.48px;
+  flex-shrink: 0;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.third__five {
+  padding-right: 15px;
+}
+.third__six {
+  padding-top: 334px;
+}
+.third__seven {
+  padding-right: 15px;
+}
+.third__eight {
+  padding-top: 274px;
+  padding-right: 15px;
+}
+.third__nine {
+  padding-right: 15px;
+}
+
+.four__title {
+  margin-left: 37.48px;
+  margin-top: 26.15px;
+  display: flex;
+  flex-direction: column;
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 50.51px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 70px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.four__row {
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four__row span {
+  margin-left: 13px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+.four img {
+  margin-left: 13px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit button {
+  background-color: #D2A070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 222.75px;
+  height: 33.75px;
+  flex-shrink: 0;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  border-color: #D2A070;
+  margin-top: 15px;
+  margin-left: 608px;
+  margin-bottom: 20px;
+}
+.visit span {
+  color: #F6F6F6;
+  font-family: "Apercu Pro";
+  font-size: 15.005px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  background-color: #000000;
+}
+
+.footer__all {
+  display: flex;
+  flex-direction: row;
+}
+.footer__one {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  margin-right: 250px;
+}
+.footer__title {
+  display: flex;
+  flex-direction: row;
+}
+.footer__circle {
+  margin-top: 51px;
+  width: 9.73px;
+  height: 9.73px;
+  flex-shrink: 0;
+  border-radius: 3000px;
+  background: rgb(210, 160, 112);
+  opacity: 0.0863901973;
+}
+.footer__brand {
+  color: #FFF;
+  font-family: "Roslindale";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  padding-top: 48.76px;
+  padding-left: 3.5px;
+  width: 87px;
+  height: 15px;
+}
+.footer__date {
+  color: #7C7C7C;
+  font-family: "Apercu Pro";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 26px;
+}
+.footer__date span {
+  display: flex;
+  flex-direction: column;
+}
+.footer__two {
+  margin-top: 40px;
+  margin-right: 152px;
+  margin-bottom: 38px;
+}
+.footer__link {
+  list-style: none;
+  width: 254px;
+}
+.footer__link a {
+  font-family: "Apercu Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  width: 70px;
+  height: 14px;
+  padding-right: 5px;
+  color: #F6F6F6;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__three {
+  margin-top: 40px;
+  margin-right: 150px;
+}
+.footer__links {
+  list-style: none;
+  width: 254px;
+}
+.footer__links a {
+  font-family: "Apercu Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  width: 70px;
+  height: 14px;
+  padding-right: 5px;
+  color: #7C7C7C;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__four {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 45px;
+}
+.footer__button {
+  color: #F6F6F6;
+  text-align: center;
+  font-family: "Apercu Pro";
+  font-size: 10.21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  background-image: url("./img/вторая.png");
+}
+.footer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 94.5px;
+  height: 22.5px;
+  flex-shrink: 0;
+  border-color: #D2A070;
+  background: #D2A070;
+}
+.footer__gratitude {
+  color: #7C7C7C;
+  text-align: right;
+  font-family: "Apercu Pro";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  margin-top: 33px;
+}
+.footer__gratitude span {
+  display: flex;
+  flex-direction: column;
+}
+.footer__column {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}/*# sourceMappingURL=style1.css.map */

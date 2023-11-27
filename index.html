@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="style.scss">
+  <title>Тег FRAMESET</title>
+ </head>
+
+ <frameset rows="15%,*,10%" framespacing="0" border="1">
+  <!-- Верхняя часть (Header) -->
+  <frame src="header.html" name="headerFrame" scrolling="no" noresize>
+  <!-- Основная часть и боковая панель -->
+  <frameset cols="20%,*">
+    <!-- Боковая панель (Sidebar) -->
+    <frame src="sidebar.html" name="sidebarFrame" scrolling="auto" noresize>
+
+    <!-- Главная часть (Main) -->
+    <frame src="main.html" name="mainFrame" scrolling="auto" noresize>
+  </frameset>
+
+  <!-- Нижняя часть (Footer) -->
+  <frame src="footer.html" name="footerFrame" scrolling="no" noresize>
+</frameset>
+
+</html>
