@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html {
   scroll-behavior: smooth;
+  width: auto;
 }
 
 body {
@@ -13,11 +14,11 @@ body {
 
 .container {
   background-color: #FFF;
-  width: 1440px;
+  width: auto;
 }
 
 .header {
-  background-image: url("./img/первая.png");
+  background-image: url("./img1/первая.png");
   height: 893px;
   width: 100%;
 }
@@ -132,7 +133,7 @@ body {
 .header button {
   width: 94.5px;
   height: 22.5px;
-  background-image: url("./img/вторая.png");
+  background-image: url("./img1/вторая.png");
   margin-right: 42.5px;
   margin-top: 27.77px;
   margin-left: 416px;
@@ -200,7 +201,7 @@ body {
 }
 
 .squid {
-  background-image: url("./img/colmar.png");
+  background-image: url("./img1/colmar.png");
   width: 1440px;
   height: 810px;
 }
